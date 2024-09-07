@@ -1,7 +1,7 @@
 const dados = [
     {
         nome: "Aurora Boreal",
-        descricao: "Um fenômeno luminoso observado nos céus polares, causado pela interação de partículas carregadas do Sol com a atmosfera terrestre.",
+        descricao: "A aurora boreal é um dos espetáculos mais fascinantes da natureza. Um fenômeno luminoso que ocorre nos céus das regiões polares, principalmente no Hemisfério Norte, e que encanta observadores de todo o mundo.",
         tipo: "astronômico",
         localizacao: "Regiões polares (Ártico e Antártico)",
         causas: "Vento solar e campo magnético terrestre",
@@ -16,7 +16,7 @@ const dados = [
     },
     {
         nome: "Terremoto",
-        descricao: "Um tremor violento da superfície da Terra, causado pela liberação súbita de energia acumulada nas rochas.",
+        descricao: "Esse evento ocorre quando a Lua se alinha entre a Terra e o Sol, projetando sua sombra sobre uma parte do planeta. Existem diferentes tipos de eclipses solares, como o total, parcial e anular, cada um com suas características únicas.",
         tipo: "geológico",
         localizacao: "Zonas de falhas tectônicas",
         causas: "Movimento das placas tectônicas",
@@ -31,7 +31,7 @@ const dados = [
     },
     {
         nome: "Vulcão",
-        descricao: "Uma abertura na crosta terrestre por onde são expelidos lava, gases e materiais sólidos.",
+        descricao: "A atividade vulcânica desempenha um papel fundamental na formação da crosta terrestre e na liberação de gases que influenciam o clima global. Os vulcões podem ser ativos, dormentes ou extintos.",
         tipo: "geológico",
         localizacao: "Zonas de subducção e limites de placas tectônicas",
         causas: "Pressão interna da Terra e movimento das placas tectônicas",
@@ -46,7 +46,7 @@ const dados = [
     },
     {
         nome: "Furacão",
-        descricao: "Um sistema de tempestade de grande escala com ventos fortes e chuvas intensas.",
+        descricao: "Furacões são sistemas de baixa pressão que se formam sobre águas quentes dos oceanos tropicais. Eles são acompanhados por ventos fortes, chuvas intensas e tempestades.",
         tipo: "meteorológico",
         localizacao: "Oceanos tropicais",
         causas: "Evaporação da água do mar e formação de nuvens de tempestade",
@@ -61,7 +61,7 @@ const dados = [
     },
     {
         nome: "Eclipse Solar",
-        descricao: "O fenômeno em que a Lua se interpõe entre a Terra e o Sol, ocultando total ou parcialmente o Sol.",
+        descricao: "Esse evento ocorre quando a Lua se alinha entre a Terra e o Sol, projetando sua sombra sobre uma parte do planeta. Existem diferentes tipos de eclipses solares, como o total, parcial e anular, cada um com suas características únicas.",
         tipo: "astronômico",
         localizacao: "Varia de acordo com a trajetória da Lua",
         causas: "Alinhamento do Sol, Lua e Terra",
@@ -76,7 +76,7 @@ const dados = [
     },
     {
         nome: "Aurora Austral",
-        descricao: "Um fenômeno luminoso observado nos céus polares do hemisfério sul, similar à aurora boreal.",
+        descricao: "A Aurora Austral é um espetáculo luminoso que ocorre nos céus do Hemisfério Sul, principalmente nas regiões próximas à Antártida. Assim como sua irmã do norte, a Aurora Boreal, ela é resultado da interação entre partículas carregadas do Sol e a atmosfera terrestre, criando um show de cores vibrantes e formas hipnotizantes.",
         tipo: "astronômico",
         localizacao: "Regiões polares do hemisfério sul (Antártida)",
         causas: "Interação de partículas carregadas do Sol com a atmosfera terrestre",
@@ -92,7 +92,7 @@ const dados = [
 
     {
         nome: "Tsunami",
-        descricao: "Uma série de ondas gigantescas causadas por grandes perturbações subaquáticas, como terremotos, erupções vulcânicas ou deslizamentos de terra.",
+        descricao: "As ondas de um tsunami podem viajar a velocidades de até 800 km/h no oceano aberto, diminuindo à medida que se aproximam da costa. A altura das ondas pode chegar a dezenas de metros, causando destruição em áreas costeiras.",
         tipo: "geológico/oceanográfico",
         localizacao: "Zonas costeiras próximas a áreas sismicamente ativas",
         causas: "Deslocamento de grandes volumes de água",
@@ -107,7 +107,7 @@ const dados = [
     },
     {
         nome: "Geiser",
-        descricao: "Uma fonte termal que ejeta periodicamente água quente e vapor para o ar.",
+        descricao: "A formação de um geiser depende de uma combinação de fatores, como a presença de água subterrânea, rochas quentes e fraturas na crosta terrestre. A periodicidade das erupções de um geiser pode variar desde alguns minutos até vários dias.",
         tipo: "geológico",
         localização: "Regiões vulcânicas",
         causas: "Aquecimento da água subterrânea por rochas quentes",
@@ -122,7 +122,7 @@ const dados = [
     },
     {
         nome: "Tornado",
-        descricao: "Uma coluna de ar rotativa violenta que se estende do solo até uma nuvem cumulonimbus.",
+        descricao: "A formação de um tornado envolve a interação de diferentes massas de ar com diferentes temperaturas e umidades. Os tornados são classificados em categorias de acordo com a escala Fujita ou Enhanced Fujita.",
         tipo: "meteorológico",
         localização: "Zonas temperadas, principalmente nos Estados Unidos",
         causas: "Diferenças de temperatura e umidade no ar",
@@ -137,7 +137,7 @@ const dados = [
     },
     {
         nome: "Arco-íris",
-        descricao: "Um fenômeno óptico e meteorológico que se manifesta como um espectro de luz multicolorido no céu.",
+        descricao: "Além do arco-íris primário, que é o mais comum, existem também arcos-íris secundários e terciários, que são menos intensos e apresentam as cores invertidas.",
         tipo: "meteorológico",
         localização: "Qualquer lugar onde haja chuva e luz solar ao mesmo tempo",
         causas: "Refração e reflexão da luz solar nas gotas de chuva",
