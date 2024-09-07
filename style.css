@@ -170,3 +170,15 @@ footer {
 .spacing {
     margin: 16px;
 }
+
+.link-estiloso {
+    color: #3498db; /* Azul claro */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: bold;
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+  }
+  
+  .link-estiloso:hover {
+    color: #2980b9; /* Azul mais escuro */
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+  }
