@@ -16,7 +16,7 @@ function pesquisar() {
     campoPesquisa.value = campoPesquisa.value.toLowerCase()
 
     for (let dado of dados) {
-        nome = dado.nome.toLowerCase() 
+        nome = dado.nome.toLowerCase()
         descricao = dado.descricao.toLowerCase()
 
         if (nome.includes(campoPesquisa.value) || descricao.includes(campoPesquisa.value)) {
@@ -40,4 +40,25 @@ function pesquisar() {
 
     sectionResultados.innerHTML = resultados
 
+}
+
+function verTodos() {
+
+    let sectionResultados = document.getElementById("section-resultados");
+
+    let resultados = "";
+    
+    for (let dado of dados) {
+        resultados += `
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank">${dado.nome}</a>
+                </h2>
+                <p class="descricao-meta">${dado.descricao}</p>
+                <a href=${dado.video} target="_blank">Mais informações</a>
+            </div>
+            `
+    }
+
+    sectionResultados.innerHTML = resultados
 }
